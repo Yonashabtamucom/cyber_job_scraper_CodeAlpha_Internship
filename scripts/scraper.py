@@ -51,4 +51,4 @@ for job in data[1:]:
         })
 df = pd.DataFrame(jobs)
 df.to_csv("data/raw/cybersecurity_jobs_raw.csv", index=False)
-print("✅ Data collected:", len(df))  
+print("Data collected:", len(df))  
